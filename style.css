@@ -35,46 +35,13 @@ padding: 5px 15px;
 position: relative;
 opacity: 0.8;
 cursor: pointer;
+    border: 1px solid rgb(165, 24, 24);
 }
 a:hover{
     opacity: 1;
-}
-a.btn-border {
-    border: 2px solid rgb(201, 20, 20);
-    background: black;
-  }
-  
-  a.btn-border:before {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: bold;
-    line-height: 30px;
-    width: 1000px;
-    height: 100%;
-    
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(500%) translateY(.5rem);
-  
+     background-color: rgb(165, 24, 24);
     color: black;
-  }
-  
-  a.btn-border:hover:before {
-    position:absolute;
-    top: 0;
-    left:0;
-  
-    width: 10px;
-    height: 100%;
-  
-    content: '';
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(0) translateY(0);
-  
-    
-    background: rgb(201, 20, 20);
-    
-  }
+}
 * {
     box-sizing: border-box;
   }
