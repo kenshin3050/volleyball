@@ -5,7 +5,7 @@ header{
     margin: 0 auto;
     font-family: 'Kaisei HarunoUmi', serif;
    height: 250px;
-   
+   flex-direction: column;
 }
 .anime{
     padding-top: 5px;
@@ -13,7 +13,6 @@ header{
     font-family: 'Reggae One', cursive;
 }
 .header-top{
-    float: left;
     padding-top: 20px;
     display: flex;
    
