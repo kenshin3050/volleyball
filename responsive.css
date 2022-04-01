@@ -45,6 +45,7 @@
     .nav a{
         flex: auto;
         width: 100%;
+       margin-bottom: 10px;
     }
     .main-page{
         margin: 0;
