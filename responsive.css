@@ -1,0 +1,71 @@
+@media(max-width:390px){
+    *{
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        min-width: 375px;
+        clear: left;
+        flex: 1;
+    }
+    html{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        
+    }
+    .header-top{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-top img{
+       height: 80px;
+       width: 200px;
+    }
+    .anime{
+        width: 100%;
+    }
+    .nav{
+        float: inline-start;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .nav a{
+        flex: auto;
+        width: 100%;
+    }
+    .main-page{
+        margin: 0;
+        margin-bottom: 30px;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .lists{
+        font-size: 40px;
+    }
+    .list{
+        width: 100%;
+        font-size: 8px;
+    }
+   .containers{
+       margin-top: 20px;
+       width: 80%;
+       margin: 0 auto;
+      
+   }
+   footer{
+       text-align: center;
+   }
+}
