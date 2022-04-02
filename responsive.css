@@ -23,6 +23,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+        font-size: 25px;
     }
     .header-top img{
        height: 80px;
