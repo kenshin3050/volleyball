@@ -75,6 +75,8 @@
    .youtube {
     width: 80%;
     aspect-ratio: 16/7;
+      padding-top: 50px;
+    padding-bottom: 60px;
   }
   .youtube iframe {
     width: 100%;
