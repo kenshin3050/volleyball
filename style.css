@@ -526,8 +526,8 @@ a:hover{
     width: 80%;
     margin: 0 auto;
     margin-top: 80px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Reggae One', cursive;
   }
@@ -537,5 +537,12 @@ a:hover{
  .pictures{
   font-family: 'Reggae One', cursive;
   text-align: center;
+ }
+  .pictures h1{
+  margin-bottom: 30px;
+  margin-top: 80px;
+ }
+ .thumb-list{
+   margin-bottom: 80px;
  }
   
