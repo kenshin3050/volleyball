@@ -295,9 +295,6 @@ a:hover{
       font-family: 'Reggae One', cursive;
       display: table-cell;
       vertical-align: middle;
-     
-    
-
   }
   .lists{
       font-weight: bold;
@@ -513,13 +510,14 @@ a:hover{
     opacity: 1;
     transform: none;
   }
+
   
    footer{
       padding-top: 20px;
       font-size: 12px;
      text-align: center;
   }
-.youtube{
+  .youtube{
     border-top: 1px solid red;
     border-bottom: 1px solid red;
     margin-bottom: 50px;
@@ -545,4 +543,3 @@ a:hover{
  .thumb-list{
    margin-bottom: 100px;
  }
-  
